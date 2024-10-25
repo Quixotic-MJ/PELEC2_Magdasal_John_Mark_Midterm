@@ -1,0 +1,212 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body css */
+body {
+
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding-top: 60px; 
+    color:rgb(36, 35, 35);
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+/* background color for every different sections*/
+.gradient-bg {
+    background: linear-gradient(to bottom, black, #ffcc00); /* Black to gold gradient */
+    padding: 20rem 8rem; 
+    margin: 0rem 0rem; 
+    border-radius: 8px; 
+}
+
+
+
+/* Navbar style */
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 2rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar-logo {
+    height: 60px; 
+    width: auto;
+    margin-right: 1rem; 
+    transition: transform 0.3s; 
+    border-radius: 50%;
+}
+
+.navbar-logo:hover {
+    transform: scale(1.1); 
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+header nav ul li {
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Times New Roman', serif;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Section styles */
+section {
+    padding-top: 3rem ;
+    padding-bottom: 10rem; 
+    margin: 0;
+}
+
+/* Section headers */
+section h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: whitesmoke;
+}
+
+/* For introduction part */
+#Intro {
+    text-align: center;
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+#Intro img {
+    border-radius: 45%;
+    border: solid 3px;
+    border-color: #ffcc00;
+}
+
+/* For About me */
+#AboutMe img {
+    display: block; 
+    margin: auto; 
+    border-radius: 15px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+    max-width: 100%; 
+    height: 600px; 
+}
+
+
+/* For Education styling */
+
+
+
+
+
+
+
+
+
+
+
+/* Skills list styling */
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skills-list li {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem 1rem;
+    font-size: 1.2rem;
+}
+
+/* Logo styling */
+.skill-logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 0.5rem;
+    border-radius: 5px;
+}
+
+/* Contact section styling */
+#Contact {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+p {
+    text-align: justify;
+    margin: 1rem 0; 
+}
+
+
+@media (max-width: 768px) {
+    header nav ul {
+        flex-direction: column; 
+    }
+
+    header nav ul li {
+        margin: 0.5rem 0; 
+    }
+
+    section {
+        padding: 2rem 1rem; 
+    }
+}
+
+/* socials */
+#Contact {
+    text-align: center;
+    padding: 2rem 1rem; 
+}
+
+.socials {
+    margin: 15rem 0; 
+}
+
+.socials a {
+    font-size: 3rem; 
+    margin: 0 1rem; 
+    color: whitesmoke; 
+    transition: color 0.3s; 
+}
+
+.socials a:hover {
+    color: black; 
+}
+
+.ins {
+    font-size: 1.5rem; 
+    display: block; 
+    margin-top: 1rem; 
+}
+
+hr {
+    margin: 0; 
+    border: none; 
+    height: 0; 
+}
+
+
+
+
